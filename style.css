@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(227, 86, 180);
+    background-image:url(norway1.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+}
+h1{
+    color:white;
+    font-family:"press Start 2P","consolas",sans-serif;
+
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-left-style:double ;
+    border-left-width: 10px;
+    border-left-color:silver;
+
+    background: linear-gradient(to left,skyblue,lightgreen); 
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+p{
+    background-color:gray; color:white;
+    font-family:"consolas", sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:cyan wavy underline;
+    font-size: 18px;
+
+    border-style:solid;
+    border: width 5px;
+    border-color:gold;
+    border-radius:10px;
+    padding: 10px;
+
+    background: linear-gradient(to left,skyblue,lightgreen); 
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#p1{
+   color:tomato;
+}
+.odd{
+    color:red;
+}
+.even{
+    color:blue;
+}
