@@ -47,3 +47,138 @@ p{
 .even{
     color:blue;
 }
+
+#box1{
+    border:3px solid;
+    width:250px;
+    height: 250px;
+    font-size:22px;
+    background:greenyellow;
+
+    padding:15px;
+
+    /*margin-top:50px;
+    margin-left:50px;
+    margin-bottom:50px;
+    margin-right:50px;*/
+    margin:50px;
+}
+#box2{
+    border:3px solid;
+    width:250px;
+    height: 250px;
+    font-size:22px;
+    background:violet;
+}
+body{
+    margin:15px;
+}
+img{
+    float:none;
+}
+.box{
+    width:100px;
+    height:100px;
+    border:1px solid;
+    font-size:40px;
+    text-align:center;
+    background:tomato;
+    
+    float:left;
+}
+.lorem5{
+    clear:left;
+}
+
+#box3{
+    border:1px;
+    height: 100px;
+    width: 100px;
+    background-color:skyblue;
+
+    
+
+}
+#box4{
+    border:1px solid;
+    height:100px;
+    width:100px;
+    background-color:tomato;
+
+    position:absolute;
+
+    top:150px;
+    left:50px;
+}
+#box5{
+    border:1px;
+    height:300px;
+    width:300px;
+    background-color:skyblue;
+
+    position:relative;
+    left:250px;
+    top: 250px;
+}
+#box6{
+    border:1px;
+    height:100px;
+    width:100px;
+    background-color:palevioletred;
+
+    position:absolute;
+
+    top:100px;
+    left:100px;
+}
+a{
+    font-size: xx-large;
+}
+a:link{
+    color:lawngreen;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:tomato;
+}
+a:active{
+    color:yellow;
+}
+button{
+    font-size: xx-large;
+}
+button:hover{
+    background-color:lightcoral;
+}
+button:active{
+    background-color:skyblue;
+}
+li{
+    font-size: 35px;
+}
+/*li:nth-child(2){
+    background-color:yellow;
+}*/
+li:nth-child(even){
+    background-color:yellow;
+}
+li:nth-child(odd){
+    background-color:yellowgreen;
+}
+h2{
+    font-size: xxx-large;
+    text-shadow:0px 5px 0px grey , 0px -5px 0px red;
+}
+h2:hover{
+    box-shadow:5px 5px 5px;
+}
+.fa-twitter{
+
+}
+.fa-youtube{
+    color:red;
+}
+
+
